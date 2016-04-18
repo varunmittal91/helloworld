@@ -1,0 +1,12 @@
+{
+   "maintainer": ["Varun Mittal <varun91@uw.edu>"],
+   "commands": [
+       ["install", "python"],
+       ["add", "helloworld.py /helloworld.py"],
+       ["add", "start.sh /start.sh"]
+   ],
+   "entrypoint": [
+      "/start.sh"
+   ],
+}
+
