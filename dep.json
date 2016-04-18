@@ -7,6 +7,6 @@
    ],
    "entrypoint": [
       "/start.sh"
-   ],
+   ]
 }
 
