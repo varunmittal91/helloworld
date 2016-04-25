@@ -3,7 +3,12 @@
    "commands": [
        ["install", "python"],
        ["add", "helloworld.py /helloworld.py"],
-       ["add", "start.sh /start.sh"]
+       ["add", "start.sh /start.sh"],
+       "rm -rf /tmp/*"
+   ],
+   "depends": [
+       "java8",
+       "novnc"
    ],
    "entrypoint": [
       "/start.sh"
